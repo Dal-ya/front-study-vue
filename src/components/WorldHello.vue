@@ -6,6 +6,7 @@
     <h3>{{ obj.name }}</h3>
     <h3>{{ obj.score }}</h3>
     <button @click="change">change</button>
+    <br />
     <button @click="rollBack">rollback</button>
   </div>
 </template>
@@ -20,6 +21,7 @@
   const change = () => {
     (obj.name = 'mina'), (obj.score = 80);
   };
+
   const rollBack = () => {
     (obj.name = 'sherlock'), (obj.score = 90);
   };
