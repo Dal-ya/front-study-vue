@@ -16,6 +16,11 @@ const routes = [
     name: 'DesignBase',
     component: () => import('../views/DesignBaseView.vue'),
   },
+  {
+    path: '/progress-steps',
+    name: 'ProgressSteps',
+    component: () => import('../views/ProgressStepsView.vue'),
+  },
 ];
 
 const router = createRouter({

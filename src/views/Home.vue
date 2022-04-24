@@ -9,6 +9,11 @@
             Expanding Card
           </router-link>
         </li>
+        <li>•
+          <router-link to="/progress-steps" class="underline">
+            Progress steps
+          </router-link>
+        </li>
       </ul>
     </div>
   </div>
